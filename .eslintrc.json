@@ -1,5 +1,3 @@
-// In the below small code example we have added a few additional defaults, we have said that React will always be defined even if we don't specifically import it, and I have added a personal custom rule that I like which allows you to prefix variables with an underscore _ if you have declared them but not used them in the code.
-
 {
   "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
   "globals": {
