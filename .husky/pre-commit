@@ -1,0 +1,6 @@
+# The below says that in order for our commit to succeed, the yarn lint script must first run and succeed. "Succeed" in this context means no errors. It will allow you to have warnings
+
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+yarn lint
